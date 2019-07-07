@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+</style>
 @import "bootstrap";
 
 .clear {
@@ -41,4 +43,10 @@ header {
 }
 hr {
   clear:both;
+}
+h1 {
+  font-family: 'Barriecito', cursive;
+}
+h2 {
+  font-family: 'Barriecito', cursive;
 }
