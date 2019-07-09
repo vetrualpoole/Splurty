@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
-
 @import "bootstrap";
 
 .clear {
@@ -37,6 +35,8 @@ links a {
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'intro_head_rbase';
+  font-weight: bold;
 }
 header {
   border-top: 9px solid #222222;
@@ -45,8 +45,10 @@ hr {
   clear:both;
 }
 h1 {
-  font-family: 'Barriecito', cursive;
+  font-family: 'intro_head_rbase';
 }
 h2 {
-  font-family: 'Barriecito', cursive;
+  font-family: 'intro_head_rbase';
+  font-weight: normal;
+  font-style: normal;
 }
