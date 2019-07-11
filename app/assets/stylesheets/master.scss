@@ -46,11 +46,14 @@ hr {
 }
 h1 {
   font-family: 'intro_head_rbase';
+  font-weight: bold;
+  font-style: 48px;
 }
-h2 {
+h2 span {
   font-family: 'intro_head_rbase';
   font-weight: normal;
   font-style: normal;
+  color:#dddddd;
 }
 .next-quote {
   color:#DE5C1F;
@@ -76,4 +79,7 @@ h2 {
 }
 .modal {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+::selection {
+  background-color: #f84342;
 }
